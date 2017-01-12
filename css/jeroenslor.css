@@ -132,13 +132,21 @@ section#about {
 	margin: 0 0 15px;
 	right: 0;
 }
+
 #portfolio .portfolio-item .portfolio-link
 {
-	display: block;
-	margin: 0 auto;
+    display: block;
 	max-width: 400px;
+    min-height: 212px;
 	position: relative;
+    background-color: white;
 }
+
+#portfolio .portfolio-item .portfolio-link img {
+    display: block;
+    margin: 0 auto;
+}
+
 #portfolio .portfolio-item .portfolio-caption
 {
 	background-color: #fff;
