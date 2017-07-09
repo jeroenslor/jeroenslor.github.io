@@ -138,7 +138,7 @@ section#about {
     display: block;
     margin: 0 auto;
 	max-width: 400px;
-    min-height: 212px;
+    min-height: 260px;
 	position: relative;
     background-color: white;
 }
@@ -146,6 +146,7 @@ section#about {
 #portfolio .portfolio-item .portfolio-link img {
     display: block;
     margin: 0 auto;
+    max-height: 260px;
 }
 
 #portfolio .portfolio-item .portfolio-caption
