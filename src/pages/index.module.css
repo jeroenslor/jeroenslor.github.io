@@ -1,0 +1,154 @@
+.heading--xxl {
+    font-size: 1.51572rem;
+    line-height: 1.1;
+}
+
+@media (min-width: 768px) {
+    .heading--xxl {
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+}
+
+.heading--white {
+    color: #FFFFFF;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .introduction {
+        margin-top: 80px;
+    }
+}
+
+.introduction__contentWrap {
+    max-width: 700px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .introduction__contentWrap {
+        text-align: left;
+        margin: 0 0 0 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .introduction {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 80px;
+    }
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .skills {
+        margin-top: 80px;
+    }
+}
+
+.iconWrapper {
+    justify-content: 'space-around';
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    .iconWrapper {
+        flex: 0 0 25%;
+    }
+}
+
+.iconWrapper svg {
+    width: 100px;
+    height: 100px;
+}
+
+@media (min-width: 1024px) {
+    .iconWrapper svg {
+        width: 128px;
+        height: 128px;
+    }
+}
+
+.contactOption svg {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.contactOption svg *,
+.iconWrapper svg * {
+    fill: #E0E0E0;
+}
+
+.iconWrapper .elasticIcon__shapeWrap {
+    fill: #FFFFFF;
+}
+
+.contactOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contactOption,
+.contactOption:focus,
+.contactOption:active,
+.contactOption:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contactOption__text {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .contactOption__text {
+        display: block;
+    }
+}
+
+.project {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 26px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+@media (min-width: 600px) {
+    .project {
+        flex: 0 1 50%;
+    }
+}
+
+@media (min-width: 786px) {
+    .project {
+        flex: 0 1 33.33%;
+    }
+}
+
+@media (min-width: 1360px) {
+    .project {
+        flex: 0 1 25%;
+    }
+}

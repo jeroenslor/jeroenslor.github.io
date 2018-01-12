@@ -1,0 +1,37 @@
+.header {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .header {
+        justify-content: space-between;
+    }
+}
+
+.nav {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@media (min-width: 768px) {
+    .nav {
+        display: flex;
+    }
+}
+
+.navItem__link,
+.navItem__link:focus,
+.navItem__link:active,
+.navItem__link:visited {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
