@@ -128,11 +128,8 @@
 
 .project {
     flex: 0 1 auto;
-    display: flex;
-    flex-direction: column;
     padding: 0 26px;
     margin-bottom: 40px;
-    align-items: center;
 }
 
 @media (min-width: 600px) {
